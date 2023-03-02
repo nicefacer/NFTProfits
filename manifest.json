@@ -1,0 +1,16 @@
+{
+  "name": "NFT Market Data",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Pulls real-time market data from top NFT aggregator platforms",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_title": "NFT Market Data",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
